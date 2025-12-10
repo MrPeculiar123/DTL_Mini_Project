@@ -1,7 +1,23 @@
+# --- Core API & Server ---
 fastapi
 uvicorn
-sqlalchemy
-psycopg2-binary
 python-multipart
 pydantic
 python-dotenv
+
+# --- Database ---
+sqlalchemy
+psycopg2-binary
+
+# --- Web Scraping & Automation ---
+selenium
+webdriver-manager
+beautifulsoup4
+requests
+
+# --- PDF Processing ---
+PyPDF2
+
+# --- AI & Agents (Installed for Phase 3) ---
+crewai
+langchain_openai
