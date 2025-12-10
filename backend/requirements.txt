@@ -21,3 +21,7 @@ PyPDF2
 # --- AI & Agents (Installed for Phase 3) ---
 crewai
 langchain_openai
+
+# --- Additional
+scikit_learn
+numpy
