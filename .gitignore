@@ -1,0 +1,27 @@
+# --- PYTHON & BACKEND ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+backend/.env
+
+# --- FRONTEND ---
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+.DS_Store
+
+# Ignore everything in uploads
+backend/data/uploads/*
+# But do NOT ignore the .gitkeep file
+!backend/data/uploads/.gitkeep
+
+*.sqlite3
+
+# --- LOGS ---
+*.log
